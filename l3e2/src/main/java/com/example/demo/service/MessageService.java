@@ -2,11 +2,13 @@ package com.example.demo.service;
 
 import com.example.demo.model.ChatForm;
 import com.example.demo.model.ChatMessage;
+import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 public class MessageService {
     private List<ChatMessage> chatMessages;
 
